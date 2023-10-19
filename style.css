@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300;1,400&display=swap');
 
 
@@ -203,9 +204,11 @@ main {
   flex-direction: column;
   background-color: #cdcdcd;
 }
-.container-texto5 li{
+
+.container-texto5 li {
   font-size: 12px;
 }
+
 .texto-duv2 {
   background-color: #bebebe;
   width: 250px;
@@ -237,9 +240,10 @@ main {
   background-color: #cdcdcd;
 }
 
-.container-texto6 li{
+.container-texto6 li {
   font-size: 12px;
 }
+
 footer {
   background-color: #cdcdcd;
   padding: 20px 10px;
@@ -422,14 +426,9 @@ footer {
 }
 
 .container-textocop {
-  width: 1200px;
   font-size: 07px;
-  color: gray;
-}
-
-.container-textocop {
-  width: 1200px;
-  font-size: 07px;
+  padding: 10px;
+  background-color: #cdcdcd;
   color: gray;
 }
 
@@ -437,22 +436,6 @@ footer {
   display: none;
 }
 
-.container-textocop2 {
-  display: none;
-}
-
-@media(max-width:820px) {
-  main {
-    height: 500px;
-  }
-}
-
-@media(max-width:427px) {
-
-  .container-h1 h1 {
-    font-size: 14px;
-  }
-}
 
 @media (max-width:610px) {
   footer {
@@ -491,14 +474,6 @@ footer {
     justify-content: center;
   }
 
-  .container-textocop2 {
-    display: flex;
-    color: gray;
-    padding: 04px;
-    height: 200px;
-    width: 400px;
-    font-size: 10px;
-  }
 
   main {
     height: 564px;
@@ -507,6 +482,7 @@ footer {
   footer {
     display: flex;
     flex-direction: column;
+    border: none;
     justify-content: center;
     align-items: center;
   }
@@ -517,18 +493,10 @@ footer {
     justify-content: center;
   }
 
-
-
-
-
   .container-redes {
     display: none;
   }
 
-
-  .container-textocop {
-    display: none;
-  }
 
   .container-direita {
     display: none;
@@ -538,18 +506,32 @@ footer {
     display: none;
   }
 }
-@media (max-width:813px){
 
-  .container-duvidas{
+@media (max-width:814px) {
+
+  main {
+    height: 1400px;
+  }
+
+  .container-duvidas {
     display: flex;
-    
-  
+    width: auto;
+    flex-direction: column;
+    height: 1400px;
   }
 
-  
-  .duvidas{
-    height: 400px;
-
+  .container-divs-t {
+    height: 300px;
+    width: 200px;
+    display: flex;
   }
-  
+  .feito-agora{
+    width: 300px;
+  }
+  .texto-duv3{
+    width: 300px;
+  }
+  .texto-duv2{
+    width: 300px;
+  }
 }
